@@ -11,7 +11,7 @@ const workoutSchema = new mongoose.Schema({
 		required: [true, 'Name is Required']
 	},
 	duration: {
-		type: String,
+		type: Number,
 		required: [true, 'Duration is Required']
 	},
 	dateAdded: {
