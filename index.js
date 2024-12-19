@@ -10,7 +10,7 @@ const app = express();
 const workoutRoutes = require("./routes/workout");
 const userRoutes = require("./routes/user");
 
-mongoose.connect("mongodb+srv://admin:admin@b495.vl3ff.mongodb.net/FitnessApp?retryWrites=true&w=majority&appName=b495", {
+mongoose.connect("mongodb+srv://admin:admin@b495.vl3ff.mongodb.net/FitnessAPI?retryWrites=true&w=majority&appName=b495", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 });
